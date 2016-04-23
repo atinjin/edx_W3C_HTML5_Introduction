@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 2: Attributes, images and links > 2.2 Attributes > Activities and discussion</title>
+</head>
+<body>
+    <h1>Week 2: Attributes, images and links > 2.2 Attributes > Activities and discussion</h1>
+    <h3>1. Find the list of supported attributes for the &lt;area&gt; tag. (Hint: Use the W3C cheatsheet or MDN attribute reference list)</h3>
+    <ul>
+        <li>alt</li>
+        <li>coords</li>
+        <li>download</li>
+        <li>href</li>
+        <li>media</li>
+        <li>rel</li>
+        <li>hreflang</li>
+        <li>target</li>
+    </ul>
+    <h3>
+        2. Create two paragraphs with the same 'id' and run your code in Intel XDK. You can view your output in a Chrome window. What happens? We know the value of the 'id' attribute must be unique, so why does it behave the way it does? Run your code through the W3C Markup Validator. Does it throw an error?
+    </h3>
+    <p id="first">
+        This is first paragraph.
+    </p>
+    <p id="first">
+        "W3C Markup Validator" throws a error.
+        <pre>
+        Error: Duplicate ID first.
+        nce of ID first was here.
+        From line 23, column 5; to line 23, column 18
+        </pre>
+    </p>
+
+    <h3>
+        3. Does an attribute called 'src' exist? What is the purpose of this attribute and what are the elements it can be applied to? (Hint: Refer to the W3C HTML5 specification, W3C cheatsheet or MDN attribute reference list)
+    </h3>
+    <pre>
+        Elements
+          audio new embed new iframe img input script source new track new video new
+        content
+          Valid non-empty URL potentially surrounded by spaces
+        description
+          Address of the resource
+    </pre>
+    <h3>
+        4. Create an ordered list starting with the number 11. Then, reverse the list. Give it the following title (when you hover your mouse, it should display the title as a tooltip): 'Activity List'.
+    </h3>
+        <abbr title="What you have to do">Activity List</abbr>
+        <ol start="11">
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+            <li>forth</li>
+            <li>fifth</li>
+        </ol>
+        <h4>Reversed</h4>
+        <ol start="11" reversed>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+            <li>forth</li>
+            <li>fifth</li>
+        </ol>
+
+
+</body>
+</html>
