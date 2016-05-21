@@ -1,0 +1,12 @@
+ol.alpha {
+    list-style: lower-alpha;
+}
+
+ol.square {
+    list-style-type: square;
+}
+
+ol.triangle {
+    list-style-image: url("./my_triangle.png");
+}
+
