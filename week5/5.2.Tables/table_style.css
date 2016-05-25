@@ -1,0 +1,61 @@
+/*.first {*/
+    /*align: center;*/
+    /*border-collapse: collapse;*/
+/*}*/
+/*.first tr td {*/
+    /*border: 1px solid blue;*/
+    /*padding: 10px;*/
+/*}*/
+/*.first th {*/
+    /*background-color: black;*/
+    /*border: 1px solid black;*/
+    /*color: white;*/
+    /*padding: 5px;*/
+/*}*/
+
+.second table, .second th, .second td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .8rem;
+
+}
+.second th {
+    height: 10px;
+    font-weight: 900;
+    text-align: center;
+    font-size: small;
+}
+.second td {
+    font-size: smaller;
+}
+
+.third table, .third th, .third td {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 600px;
+    height: 30px;
+}
+.third thead {
+    background-color: #767171;
+}
+.third tbody {
+    background-color: #D9D9D9;
+}
+
+.forth table {
+    width: 600px;
+    border-color: white;
+}
+.forth th{
+    background-color: #5E9CD3;
+    height: 40px;
+    border-bottom: 3px solid white;
+}
+.forth tr {
+    height: 40px;
+}
+.forth tr:nth-child(even) { background-color: #EAEFF7; }
+.forth tr:nth-child(odd) { background-color: #D2DEEE; }
+.forth tr:hover { background-color: yellow;}
