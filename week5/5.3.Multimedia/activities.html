@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<section>
+    1. Embed an audio file in an HTML page with the following requirements:
+    <ul>
+        <li>Player has controls to play, pause, seek, etc</li>
+        <li>Audio must automatically start playing when page loads</li>
+        <li>Audio must be muted when playback begins</li>
+    </ul>
+    <audio src="http://www.stephaniequinn.com/Music/Commercial%20DEMO%20-%2011.mp3" controls autoplay muted/>
+</section>
+<section>
+    2. Create a HTML video player that plays a video file of your choice in Google Chrome, Internet Explorer and Mozilla Firefox. Use multiple sources if you have to.
+    <br>
+    <video controls>
+        <source src="http://www.sample-videos.com/video/mp4/240/big_buck_bunny_240p_50mb.mp4" type="video/mp4">
+        <source src="http://www.sample-videos.com/video/flv/240/big_buck_bunny_240p_50mb.flv" type="video/flv">
+        <source src="http://www.sample-videos.com/video/mkv/240/big_buck_bunny_240p_50mb.mkv" type="video/mkv">
+        <source src="http://www.sample-videos.com/video/3gp/240/big_buck_bunny_240p_30mb.3gp" type="video/3gp">
+    </video>
+</section>
+<section>
+    3. Create a HTML audio player that plays an audio file of your choice in Google Chrome, Internet Explorer and Mozilla Firefox. Use multiple sources if you have to.
+    <br>
+    <audio controls>
+        <source src="http://www.nch.com.au/acm/sample.wav" type="audio/wav">
+        <source src="http://www.nch.com.au/acm/sample.mp3" type="audio/mp3">
+        <source src="http://www.nch.com.au/acm/sample.gsm" type="audio/gsm">
+        <source src="http://www.nch.com.au/acm/sample.au" type="audio/au">
+        <source src="http://www.nch.com.au/acm/sample.wma" type="audio/wma">
+        <source src="http://www.nch.com.au/acm/sample.vox" type="audio/vox">
+    </audio>
+</section>
+<section>
+    4. Create a WebVTT file for this video. Then embed this video in an HTML page with the captions you created.
+    <video controls height="500" width="600">
+        <source src="video-activity.mp4" type="video/mp4">
+        <track src="video-activity.vtt" kind="captions" srclang="en" label="English" default>
+        Your browser does not support the HTML5 video element.
+    </video>
+</section>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <title>5.3 Multimedia</title>
+</head>
+</html>

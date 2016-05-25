@@ -1,0 +1,23 @@
+[Script Info]
+; Edited with Jubler subtitle editor
+Title: 
+Original Script: donghyunjin
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+PlayDepth: 0
+Timer: 100,0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,31,&H00FFFFFF,&H0000FFFF,&H4B000000,&H4B404040,0,0,0,0,100,100,0,0,1,0,2,2,20,20,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,*Default,,0000,0000,0000,,Start to your new project from the menu on the left
+Dialogue: 0,0:00:03.00,0:00:06.00,*Default,,0000,0000,0000,,By choosing the Templates, Samples
+Dialogue: 0,0:00:06.00,0:00:09.00,*Default,,0000,0000,0000,,Or demo code base
+Dialogue: 0,0:00:07.00,0:00:11.00,*Default,,0000,0000,0000,,There are standard HTML5
+Dialogue: 0,0:00:10.00,0:00:13.00,*Default,,0000,0000,0000,,And HTML5 plus Code base
